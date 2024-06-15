@@ -1,29 +1,18 @@
-﻿using Vintagestory.API.Client;
+﻿using HarmonyLib;
+using Vintagestory.GameContent;
 using Vintagestory.API.Common;
-using Vintagestory.API.Config;
-using Vintagestory.API.Server;
+using Vintagestory.API.MathTools;
 
-namespace MIF
+namespace Vintagestory.GameContent
 {
-    public class MIFModSystem : ModSystem
+    [HarmonyPatch(typeof(BlockLeaves))]
+    [HarmonyPatch("GetCollisionBoxes")]
+    class BEBehaviorSupportBeam_GetCollisionBoxes_Patch
     {
-
-        // Called on server and client
-        // Useful for registering block/entity classes on both sides
-        public override void Start(ICoreAPI api)
+        static bool Prefix(ref Cuboidf[] __result)
         {
-            api.Logger.Notification("Hello from template mod: " + api.Side);
+            __result = System.Array.Empty<Cuboidf>();
+            return false;
         }
-
-        public override void StartServerSide(ICoreServerAPI api)
-        {
-            api.Logger.Notification("Hello from template mod server side: " + Lang.Get("mif:hello"));
-        }
-
-        public override void StartClientSide(ICoreClientAPI api)
-        {
-            api.Logger.Notification("Hello from template mod client side: " + Lang.Get("mif:hello"));
-        }
-
     }
 }
