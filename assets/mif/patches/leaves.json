@@ -5,7 +5,7 @@
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/shape/base",
-        "value": "mif:block/plant/leaves/LeafBase.json"
+        "value": "mif:block/plant/leaves/LeavesFull.json"
     },
     {
         "op": "replace",
@@ -20,7 +20,7 @@
             "*-crimsonkingmaple": "block/plant/leaves/branchy-crimsonkingmaple",
             "*-larch": "block/plant/leaves/branchy-larch",
             "*-kapok": "block/plant/leaves/branchy-kapok",
-            "*": "block/plant/leaves/brancy"
+            "*": "block/plant/leaves/branchy"
         }
     },
     {
