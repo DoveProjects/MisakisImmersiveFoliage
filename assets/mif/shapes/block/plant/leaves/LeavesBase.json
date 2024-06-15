@@ -1,0 +1,132 @@
+{
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {},
+	"textures": {},
+	"elements": [
+		{
+			"name": "cube0",
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"rotationOrigin": [8, 6, 8],
+			"faces": {
+				"north": {
+					"texture": "#0",
+					"uv": [0, 0, 16, 16],
+					"autoUv": false
+				},
+				"east": {
+					"texture": "#0",
+					"uv": [0, 0, 0, 16],
+					"autoUv": false
+				},
+				"south": {
+					"texture": "#0",
+					"uv": [0, 0, 16, 16],
+					"autoUv": false
+				},
+				"west": {
+					"texture": "#0",
+					"uv": [0, 0, 0, 16],
+					"autoUv": false
+				},
+				"up": {
+					"texture": "#0",
+					"uv": [0, 0, 16, 0],
+					"autoUv": false
+				},
+				"down": {
+					"texture": "#0",
+					"uv": [0, 0, 16, 0],
+					"autoUv": false
+				}
+			},
+			"parent": null,
+			"children": []
+		},
+		{
+			"name": "cube1",
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"rotationOrigin": [8, 6, 8],
+			"faces": {
+				"north": {
+					"texture": "#0",
+					"uv": [0, 0, 16, 16],
+					"autoUv": false
+				},
+				"east": {
+					"texture": "#0",
+					"uv": [0, 0, 0, 16],
+					"autoUv": false
+				},
+				"south": {
+					"texture": "#0",
+					"uv": [0, 0, 16, 16],
+					"autoUv": false
+				},
+				"west": {
+					"texture": "#0",
+					"uv": [0, 0, 0, 16],
+					"autoUv": false
+				},
+				"up": {
+					"texture": "#0",
+					"uv": [0, 0, 16, 0],
+					"autoUv": false
+				},
+				"down": {
+					"texture": "#0",
+					"uv": [0, 0, 16, 0],
+					"autoUv": false
+				}
+			},
+			"parent": null,
+			"rotationY": -90,
+			"children": []
+		},
+		{
+			"name": "cube2",
+			"from": [2, 2, 8],
+			"to": [18, 18, 8],
+			"rotationOrigin": [10, 8, 8],
+			"faces": {
+				"north": {
+					"texture": "#0",
+					"uv": [0, 0, 16, 16],
+					"autoUv": false
+				},
+				"east": {
+					"texture": "#0",
+					"uv": [0, 0, 0, 16],
+					"autoUv": false
+				},
+				"south": {
+					"texture": "#0",
+					"uv": [0, 0, 16, 16],
+					"autoUv": false
+				},
+				"west": {
+					"texture": "#0",
+					"uv": [0, 0, 0, 16],
+					"autoUv": false
+				},
+				"up": {
+					"texture": "#0",
+					"uv": [0, 0, 16, 0],
+					"autoUv": false
+				},
+				"down": {
+					"texture": "#0",
+					"uv": [0, 0, 16, 0],
+					"autoUv": false
+				}
+			},
+			"parent": null,
+			"rotationY": 0,
+			"rotationZ": 90,
+			"children": []
+		}
+	],
+	"animations": []
+}
