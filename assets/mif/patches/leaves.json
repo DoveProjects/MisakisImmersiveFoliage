@@ -4,7 +4,7 @@
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/shape/base",
-        "value": "mif:block/plant/leaves/normal"
+        "value": "mif:block/plant/leaves/LeavesBase"
     },
     {
         "_comment": "------------------------------------------------TEXTURES------------------------------------------------",
