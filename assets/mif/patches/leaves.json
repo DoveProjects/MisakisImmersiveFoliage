@@ -1,10 +1,27 @@
 [
     {
+        "enabled": true,
         "_comment": "-------------------------------------------------MODELS-------------------------------------------------",
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/shape/base",
-        "value": "mif:block/plant/leaves/LeavesBase"
+        "value": "mif:block/plant/leaves/LeafBase.json"
+    },
+    {
+        "op": "replace",
+        "file": "game:blocktypes/plant/leaves/branchy.json",
+        "path": "/shape/baseByType",
+        "value": {
+            "*-pine": "block/plant/leaves/branchy-pine",
+            "*-redwood": "block/plant/leaves/branchy-redwood",
+            "*-birch": "block/plant/leaves/branchy-birch",
+            "*-maple": "block/plant/leaves/branchy-maple",
+            "*-oak": "block/plant/leaves/branchy-oak",
+            "*-crimsonkingmaple": "block/plant/leaves/branchy-crimsonkingmaple",
+            "*-larch": "block/plant/leaves/branchy-larch",
+            "*-kapok": "block/plant/leaves/branchy-kapok",
+            "*": "block/plant/leaves/brancy"
+        }
     },
     {
         "_comment": "------------------------------------------------TEXTURES------------------------------------------------",
