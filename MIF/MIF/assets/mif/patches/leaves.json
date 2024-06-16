@@ -1,11 +1,41 @@
 [
     {
-        "enabled": true,
+        "_comment": "----------------------------------------------BEHAVIORS-------------------------------------------------",
+        "op": "add",
+        "file": "game:blocktypes/plant/leaves/normal.json",
+        "path": "/walkspeedmultiplier",
+        "value": 0.8
+    },
+    {
+        "op": "add",
+        "file": "game:blocktypes/plant/leaves/branchy.json",
+        "path": "/walkspeedmultiplier",
+        "value": 0.5
+    },
+    {
+        "op": "add",
+        "file": "game:blocktypes/plant/leaves/branchy.json",
+        "path": "/collisionbox",
+        "value": null
+    },
+    {
+        "op": "add",
+        "file": "game:blocktypes/plant/leaves/branchy.json",
+        "path": "/sounds/inside",
+        "value": "walk/inside/leafy/bushrustle*"
+    },
+    {
         "_comment": "-------------------------------------------------MODELS-------------------------------------------------",
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/shape/base",
-        "value": "mif:block/plant/leaves/LeavesFull.json"
+        "value": "mif:block/plant/leaves/normal.json"
+    },
+    {
+        "op": "replace",
+        "file": "game:blocktypes/plant/leaves/normal.json",
+        "path": "/lod0Shape/base",
+        "value": "mif:block/plant/leaves/normal.json"
     },
     {
         "op": "replace",
@@ -21,6 +51,22 @@
             "*-larch": "block/plant/leaves/branchy-larch",
             "*-kapok": "block/plant/leaves/branchy-kapok",
             "*": "block/plant/leaves/branchy"
+        }
+    },
+    {
+        "op": "replace",
+        "file": "game:blocktypes/plant/leaves/branchy.json",
+        "path": "/lod0Shape/baseByType",
+        "value": {
+            "*-pine": "block/plant/leaves/branchy-pine-lod0",
+            "*-redwood": "block/plant/leaves/branchy-redwood-lod0",
+            "*-birch": "block/plant/leaves/branchy-birch-lod0",
+            "*-maple": "block/plant/leaves/branchy-maple-lod0",
+            "*-oak": "block/plant/leaves/branchy-oak-lod0",
+            "*-kapok": "block/plant/leaves/branchy-kapok-lod0",
+            "*-crimsonkingmaple": "block/plant/leaves/branchy-crimsonkingmaple-lod0",
+            "*-larch": "block/plant/leaves/branchy-larch-lod0",
+            "*": "block/plant/leaves/branchy-lod0"
         }
     },
     {
