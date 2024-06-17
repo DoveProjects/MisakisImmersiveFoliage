@@ -116,7 +116,7 @@
 			"rotationY": 0.0,
 			"rotationZ": 90.0,
 			"faces": {
-				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ] }
+				"west": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ] }
 			}
 		}
 	]}
