@@ -4,7 +4,7 @@
         "op": "add",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/walkspeedmultiplier",
-        "value": 0.8
+        "value": 0.1
     },
     {
         "op": "add",
@@ -13,7 +13,7 @@
         "value": 0.5
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "path": "/collisionbox",
         "value": null
