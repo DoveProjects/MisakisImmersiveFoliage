@@ -16,7 +16,7 @@
         "op": "addmerge",
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "path": "/collisionbox",
-        "value": null
+        "value": { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 }
     },
     {
         "op": "add",
@@ -29,13 +29,13 @@
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/shape/base",
-        "value": "mif:block/plant/leaves/normal.json"
+        "value": "mif:block/plant/leaves/normal-planar24.json"
     },
     {
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/lod0Shape/base",
-        "value": "mif:block/plant/leaves/normal.json"
+        "value": "mif:block/plant/leaves/normal-planar24.json"
     },
     {
         "op": "replace",
