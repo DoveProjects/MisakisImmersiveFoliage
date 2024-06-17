@@ -1,13 +1,13 @@
 [
     {
         "_comment": "----------------------------------------------BEHAVIORS-------------------------------------------------",
-        "op": "add",
+        "op": "addmerge",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/walkspeedmultiplier",
         "value": 0.75
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "path": "/walkspeedmultiplier",
         "value": 0.5
@@ -19,7 +19,7 @@
         "value": { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 }
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "path": "/sounds/inside",
         "value": "walk/inside/leafy/bushrustle*"
@@ -75,10 +75,21 @@
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/textures/largeleavesByType",
         "value": {
-            "*-larch": { base: "block/plant/leaves/large/pine*" },
-            "*-redwood": { base: "block/plant/leaves/large/pine*" },
-            "*-crimsonkingmaple": { base: "block/plant/leaves/large/maple*" },
-            "*": { base: "block/plant/leaves/large/{wood}*" },
+            "*-larch": { base: "mif:block/plant/leaves/large/pine*" },
+            "*-redwood": { base: "mif:block/plant/leaves/large/pine*" },
+            "*-crimsonkingmaple": { base: "mif:block/plant/leaves/large/maple*" },
+            "*": { base: "mif:block/plant/leaves/large/{wood}*" },
+        }
+    },
+    {
+        "op": "replace",
+        "file": "game:blocktypes/plant/leaves/branchy.json",
+        "path": "/textures/largeleavesByType",
+        "value": {
+            "*-larch": { base: "mif:block/plant/leaves/large/pine*" },
+            "*-redwood": { base: "mif:block/plant/leaves/large/pine*" },
+            "*-crimsonkingmaple": { base: "mif:block/plant/leaves/large/maple*" },
+            "*": { base: "mif:block/plant/leaves/large/{wood}*" },
         }
     }
 ]
