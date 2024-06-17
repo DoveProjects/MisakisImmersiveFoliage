@@ -113,10 +113,9 @@
 			"shade": false,
 			"rotationOrigin": [ 16.0, 0.0, 8.0 ],
 			"rotationX": -90.0,
-			"rotationY": 0.0,
 			"rotationZ": 90.0,
 			"faces": {
-				"west": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 0.5, 32.0 ] }
+				"west": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 32.0, 32.0 ] }
 			}
 		}
 	]}
