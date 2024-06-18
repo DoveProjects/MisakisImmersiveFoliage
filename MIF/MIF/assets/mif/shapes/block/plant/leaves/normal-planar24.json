@@ -7,8 +7,8 @@
 	"textureHeight": 32,
 	"textureSizes": {
 		"largeleaves": [32,32],
-		"smallleaves": [16,16],
-		"branch": [16,16]
+		"smallleaves": [24,24],
+		"branch": [24,24]
 	},
 	"textures": {
 	},
@@ -91,7 +91,7 @@
 			"rotationOrigin": [ 4.0, 8.0, 4.0 ],
 			"rotationX": 90.0,
 			"faces": {
-				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 24.0, 24.0 ] }
+				"south": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 24.0, 24.0 ] }
 			}
 		},
 		{
@@ -103,7 +103,7 @@
 			"rotationX": 90.0,
 			"rotationY": -90.0,
 			"faces": {
-				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 24.0, 24.0 ] }
+				"south": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 24.0, 24.0 ] }
 			}
 		},
 		{
@@ -115,7 +115,7 @@
 			"rotationX": -90.0,
 			"rotationZ": 90.0,
 			"faces": {
-				"west": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 24.0, 24.0 ] }
+				"west": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 24.0, 24.0 ] }
 			}
 		}
 	]}
