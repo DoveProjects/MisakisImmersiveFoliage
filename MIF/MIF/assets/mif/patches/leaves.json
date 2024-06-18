@@ -78,7 +78,7 @@
             "*-larch": { base: "mif:block/plant/leaves/large/pine*" },
             "*-redwood": { base: "mif:block/plant/leaves/large/pine*" },
             "*-crimsonkingmaple": { base: "mif:block/plant/leaves/large/maple*" },
-            "*": { base: "mif:block/plant/leaves/large/{wood}*" },
+            "*": { base: "mif:block/plant/leaves/large/{wood}*" }
         }
     },
     {
@@ -89,7 +89,7 @@
             "*-larch": { base: "mif:block/plant/leaves/large/pine*" },
             "*-redwood": { base: "mif:block/plant/leaves/large/pine*" },
             "*-crimsonkingmaple": { base: "mif:block/plant/leaves/large/maple*" },
-            "*": { base: "mif:block/plant/leaves/large/{wood}*" },
+            "*": { base: "mif:block/plant/leaves/large/{wood}*" }
         }
     }
 ]
