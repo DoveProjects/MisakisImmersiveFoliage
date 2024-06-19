@@ -29,7 +29,7 @@
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/shape/base",
-        "value": "mif:block/plant/leaves/normal.json"
+        "value": "mif:block/plant/leaves/normal-planar16.json"
     },
     {
         "op": "replace",
@@ -74,22 +74,22 @@
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/textures/largeleavesByType",
-        "value": {
-            "*-larch": { "base": "mif:block/plant/leaves/large/pine1" },
-            "*-redwood": { "base": "mif:block/plant/leaves/large/pine1" },
-            "*-crimsonkingmaple": { "base": "mif:block/plant/leaves/large/maple*" },
-            "*": { "base": "mif:block/plant/leaves/large/{wood}*" }
-        }
+      "value": {
+        "*-larch": { "base": "mif:block/plant/leaves/large/pine1" },
+        "*-redwood": { "base": "mif:block/plant/leaves/large/pine1" },
+        "*-crimsonkingmaple": { "base": "mif:block/plant/leaves/large/maple*" },
+        "*": { "base": "mif:block/plant/leaves/large/{wood}*" }
+      }
     },
     {
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "path": "/textures/largeleavesByType",
         "value": {
-            "*-larch": { base: "mif:block/plant/leaves/large/pine*" },
-            "*-redwood": { base: "mif:block/plant/leaves/large/pine*" },
-            "*-crimsonkingmaple": { base: "mif:block/plant/leaves/large/maple*" },
-            "*": { base: "mif:block/plant/leaves/large/{wood}*" }
+            "*-larch": { "base": "mif:block/plant/leaves/large/pine*" },
+          "*-redwood": { "base": "mif:block/plant/leaves/large/pine*" },
+            "*-crimsonkingmaple": { "base": "mif:block/plant/leaves/large/maple*" },
+            "*": { "base": "mif:block/plant/leaves/large/{wood}*" }
         }
     }
 ]
