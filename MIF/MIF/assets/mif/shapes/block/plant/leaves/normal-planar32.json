@@ -1,16 +1,17 @@
 {
 	"editor": {
 		"allAngles": false,
-		"entityTextureMode": false
+		"entityTextureMode": true
 	},
-	"textureWidth": 32,
-	"textureHeight": 32,
+	"textureWidth": 128,
+	"textureHeight": 128,
 	"textureSizes": {
 		"largeleaves": [32,32],
 		"smallleaves": [16,16],
 		"branch": [16,16]
 	},
 	"textures": {
+		"newTexture": "C:/Users/stewb/OneDrive/Documents/GitHub/MisakisImmersiveFoliage/newTexture"
 	},
 	"elements": [
 		{
@@ -18,10 +19,12 @@
 			"from": [ 4.0, -10.0, 18.0 ],
 			"to": [ 12.0, 35.0, 18.0 ],
 			"shade": false,
+			"autoUnwrap": false,
+			"uv": [ 24.5, -0.5 ],
 			"rotationOrigin": [ 12.0, -2.0, 18.0 ],
 			"rotationX": -45.0,
 			"faces": {
-				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 8.0, 45.0 ] }
+				"south": { "texture": "#newTexture", "uv": [ 8.0, 0.0, 16.0, 45.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] }
 			}
 		},
 		{
@@ -29,10 +32,12 @@
 			"from": [ 4.0, -10.0, -2.0 ],
 			"to": [ 12.0, 35.0, -2.0 ],
 			"shade": false,
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
 			"rotationOrigin": [ 12.0, -2.0, -2.0 ],
 			"rotationX": 45.0,
 			"faces": {
-				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 8.0, 45.0 ] }
+				"south": { "texture": "#newTexture", "uv": [ 0.0, 0.0, 8.0, 45.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] }
 			}
 		},
 		{
@@ -40,11 +45,13 @@
 			"from": [ -7.0, -3.0, 28.0 ],
 			"to": [ -7.0, 42.0, 36.0 ],
 			"shade": false,
+			"autoUnwrap": false,
+			"uv": [ 33.0, 0.0 ],
 			"rotationOrigin": [ 7.0, 5.0, 28.0 ],
 			"rotationX": -90.0,
 			"rotationZ": -45.0,
 			"faces": {
-				"west": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 8.0, 45.0 ] }
+				"west": { "texture": "#newTexture", "uv": [ 24.0, 0.0, 32.0, 45.0 ], "windMode": [-1,-1,-1,-1] }
 			}
 		},
 		{
@@ -52,11 +59,13 @@
 			"from": [ -10.0, -10.0, 12.0 ],
 			"to": [ 35.0, -2.0, 12.0 ],
 			"shade": false,
+			"autoUnwrap": false,
+			"uv": [ 16.0, 0.0 ],
 			"rotationOrigin": [ -2.0, -2.0, 12.0 ],
 			"rotationX": 90.0,
 			"rotationY": 45.0,
 			"faces": {
-				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 45.0, 8.0 ] }
+				"south": { "texture": "#newTexture", "uv": [ 16.0, 0.0, 24.0, 45.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] }
 			}
 		},
 		{
@@ -64,11 +73,13 @@
 			"from": [ -19.0, -10.0, 4.0 ],
 			"to": [ 26.0, -2.0, 4.0 ],
 			"shade": false,
+			"autoUnwrap": false,
+			"uv": [ 49.0, 0.0 ],
 			"rotationOrigin": [ 18.0, -2.0, 4.0 ],
 			"rotationX": -90.0,
 			"rotationY": 45.0,
 			"faces": {
-				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 45.0, 8.0 ] }
+				"south": { "texture": "#newTexture", "uv": [ 32.0, 0.0, 40.0, 45.0 ], "rotation": 90 }
 			}
 		},
 		{
@@ -76,46 +87,13 @@
 			"from": [ 9.0, -11.0, 3.0 ],
 			"to": [ 9.0, 34.0, 11.0 ],
 			"shade": false,
+			"autoUnwrap": false,
+			"uv": [ 40.0, 0.0 ],
 			"rotationOrigin": [ 23.0, 5.0, 3.0 ],
 			"rotationX": -90.0,
 			"rotationZ": 45.0,
 			"faces": {
-				"west": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 8.0, 45.0 ] }
-			}
-		},
-		{
-			"name": "Cube11",
-			"from": [ -8.0, 0.0, 0.0 ],
-			"to": [ 24.0, 32.0, 0.0 ],
-			"shade": false,
-			"rotationOrigin": [ 0.0, 8.0, 0.0 ],
-			"rotationX": 90.0,
-			"faces": {
-				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 32.0, 32.0 ] }
-			}
-		},
-		{
-			"name": "Cube12",
-			"from": [ 0.0, 8.0, 0.0 ],
-			"to": [ 32.0, 40.0, 0.0 ],
-			"shade": false,
-			"rotationOrigin": [ 8.0, 16.0, 0.0 ],
-			"rotationX": 90.0,
-			"rotationY": -90.0,
-			"faces": {
-				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 32.0, 32.0 ] }
-			}
-		},
-		{
-			"name": "Cube13",
-			"from": [ 16.0, -8.0, 0.0 ],
-			"to": [ 16.0, 24.0, 32.0 ],
-			"shade": false,
-			"rotationOrigin": [ 16.0, 0.0, 8.0 ],
-			"rotationX": -90.0,
-			"rotationZ": 90.0,
-			"faces": {
-				"west": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 32.0, 32.0 ] }
+				"west": { "texture": "#newTexture", "uv": [ 40.0, 0.0, 48.0, 45.0 ], "windMode": [-1,-1,-1,-1] }
 			}
 		}
 	]}
