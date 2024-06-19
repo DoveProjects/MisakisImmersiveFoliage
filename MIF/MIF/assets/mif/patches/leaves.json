@@ -29,7 +29,7 @@
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/shape/base",
-        "value": "mif:block/plant/leaves/normal-planar16.json"
+        "value": "mif:block/plant/leaves/normal.json"
     },
     {
         "op": "replace",
