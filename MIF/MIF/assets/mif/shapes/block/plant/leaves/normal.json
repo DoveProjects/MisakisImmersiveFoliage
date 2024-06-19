@@ -6,14 +6,9 @@
 	"textureWidth": 128,
 	"textureHeight": 128,
 	"textureSizes": {
-		"largeleaves": [32,32],
-		"smallleaves": [16,16],
-		"branch": [16,16],
-		"GreyScaleTexture": [64,64],
-		"Test": [64,64],
-		"TestTextureMapLeaves": [64,64],
-		"UVMAPifitworked": [64,64],
-		"pine1": [128,128]
+		"largeleaves": [128,128],
+		"smallleaves": [32,32],
+		"branch": [16,16]
 	},
 	"textures": {
 		"pine1": "pine1"
@@ -29,7 +24,7 @@
 			"rotationOrigin": [ 12.0, -2.0, 18.0 ],
 			"rotationX": -45.0,
 			"faces": {
-				"south": { "texture": "#pine1", "uv": [ 0.0, 0.0, 16.0, 90.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] }
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 90.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] }
 			}
 		},
 		{
@@ -42,7 +37,7 @@
 			"rotationOrigin": [ 12.0, -2.0, -2.0 ],
 			"rotationX": 45.0,
 			"faces": {
-				"south": { "texture": "#pine1", "uv": [ 0.0, 0.0, 16.0, 90.0 ], "autoUv": false }
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 90.0 ], "autoUv": false }
 			}
 		},
 		{
@@ -56,7 +51,7 @@
 			"rotationX": -90.0,
 			"rotationZ": -45.0,
 			"faces": {
-				"west": { "texture": "#pine1", "uv": [ 0.0, 0.0, 16.0, 90.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+				"west": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 90.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
 			}
 		},
 		{
@@ -70,7 +65,7 @@
 			"rotationX": 90.0,
 			"rotationY": 45.0,
 			"faces": {
-				"south": { "texture": "#pine1", "uv": [ 0.0, 0.0, 16.0, 90.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] }
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 90.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] }
 			}
 		},
 		{
@@ -84,7 +79,7 @@
 			"rotationX": -90.0,
 			"rotationY": 45.0,
 			"faces": {
-				"south": { "texture": "#pine1", "uv": [ 0.0, 0.0, 16.0, 90.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,0,0,1] }
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 90.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,0,0,1] }
 			}
 		},
 		{
@@ -98,7 +93,7 @@
 			"rotationX": -90.0,
 			"rotationZ": 45.0,
 			"faces": {
-				"west": { "texture": "#pine1", "uv": [ 0.0, 0.0, 16.0, 90.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+				"west": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 90.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
 			}
 		}
 	]}
