@@ -8,7 +8,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"pine1": "pine1"
 	},
 	"elements": [
 		{
@@ -22,8 +21,8 @@
 				"east": { "texture": "#largeleaves", "uv": [ 48.0, 0.0, 64.0, 1.0 ], "windMode": [-1,-1,-1,-1] },
 				"south": { "texture": "#largeleaves", "uv": [ 48.0, 0.0, 64.0, 1.0 ], "windMode": [-1,-1,-1,-1] },
 				"west": { "texture": "#largeleaves", "uv": [ 48.0, 0.0, 64.0, 1.0 ], "windMode": [-1,-1,-1,-1] },
-				"up": { "texture": "#largeleaves", "uv": [ 48.0, 48.0, 64.0, 64.0 ] },
-				"down": { "texture": "#largeleaves", "uv": [ 48.0, 48.0, 64.0, 64.0 ] }
+				"up": { "texture": "#largeleaves", "uv": [ 96.0, 96.0, 128.0, 128.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#largeleaves", "uv": [ 64.0, 96.0, 96.0, 128.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
 			}
 		},
 		{
@@ -35,9 +34,9 @@
 			"rotationOrigin": [ 8.0, -8.0, 0.0 ],
 			"faces": {
 				"north": { "texture": "#largeleaves", "uv": [ 63.0, 0.0, 64.0, 16.0 ] },
-				"east": { "texture": "#largeleaves", "uv": [ 32.0, 48.0, 48.0, 64.0 ] },
+				"east": { "texture": "#largeleaves", "uv": [ 64.0, 64.0, 96.0, 96.0 ], "autoUv": false },
 				"south": { "texture": "#largeleaves", "uv": [ 63.0, 0.0, 64.0, 16.0 ] },
-				"west": { "texture": "#largeleaves", "uv": [ 32.0, 48.0, 48.0, 64.0 ] },
+				"west": { "texture": "#largeleaves", "uv": [ 96.0, 64.0, 128.0, 96.0 ], "autoUv": false },
 				"up": { "texture": "#largeleaves", "uv": [ 63.0, 0.0, 64.0, 16.0 ] },
 				"down": { "texture": "#largeleaves", "uv": [ 63.0, 0.0, 64.0, 16.0 ] }
 			}
@@ -50,9 +49,9 @@
 			"uv": [ 6.0, 20.0 ],
 			"rotationOrigin": [ 8.0, -8.0, 0.0 ],
 			"faces": {
-				"north": { "texture": "#largeleaves", "uv": [ 48.0, 32.0, 64.0, 48.0 ] },
+				"north": { "texture": "#largeleaves", "uv": [ 64.0, 96.0, 96.0, 128.0 ], "autoUv": false },
 				"east": { "texture": "#largeleaves", "uv": [ 63.0, 0.0, 64.0, 16.0 ] },
-				"south": { "texture": "#largeleaves", "uv": [ 48.0, 32.0, 64.0, 48.0 ] },
+				"south": { "texture": "#largeleaves", "uv": [ 96.0, 96.0, 128.0, 128.0 ], "autoUv": false },
 				"west": { "texture": "#largeleaves", "uv": [ 63.0, 0.0, 64.0, 16.0 ] },
 				"up": { "texture": "#largeleaves", "uv": [ 48.0, 0.0, 64.0, 1.0 ] },
 				"down": { "texture": "#largeleaves", "uv": [ 48.0, 0.0, 64.0, 1.0 ] }

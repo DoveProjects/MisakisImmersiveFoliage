@@ -35,7 +35,7 @@
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/lod0Shape/base",
-        "value": "mif:block/plant/leaves/LeavesBase.json"
+        "value": "mif:block/plant/leaves/normal.json"
     },
     {
         "op": "replace",
