@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="ModMaker">
+      <HintPath>..\..\..\..\..\..\AppData\Roaming\Vintagestory\ModMaker.dll</HintPath>
+    </Reference>
     <Reference Include="VintagestoryAPI">
       <HintPath>$(VINTAGE_STORY)/VintagestoryAPI.dll</HintPath>
       <Private>false</Private>
@@ -53,6 +56,7 @@
   <Content Include="assets\**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
   </Content>
+  <Compile Remove="MIFModSystem.cs" />
   <None Remove="assets\mif\shapes\block\plant\leaves\LeavesFull.json" />
   <None Remove="assets\mif\textures\block\plant\leaves\large\acacia1.png" />
   <None Remove="assets\mif\textures\block\plant\leaves\large\baldcypress1.png" />

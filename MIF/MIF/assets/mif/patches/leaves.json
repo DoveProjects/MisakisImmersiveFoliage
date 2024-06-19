@@ -74,12 +74,12 @@
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/textures/largeleavesByType",
-        "value": {
-            "*-larch": { base: "mif:block/plant/leaves/large/pine*" },
-            "*-redwood": { base: "mif:block/plant/leaves/large/pine*" },
-            "*-crimsonkingmaple": { base: "mif:block/plant/leaves/large/maple*" },
-            "*": { base: "mif:block/plant/leaves/large/{wood}*" }
-        }
+      "value": {
+        "*-larch": { "base": "mif:block/plant/leaves/large/pine1" },
+        "*-redwood": { "base": "mif:block/plant/leaves/large/pine1" },
+        "*-crimsonkingmaple": { "base": "mif:block/plant/leaves/large/maple*" },
+        "*": { "base": "mif:block/plant/leaves/large/{wood}*" }
+      }
     },
     {
         "op": "replace",
