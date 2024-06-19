@@ -29,13 +29,13 @@
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/shape/base",
-        "value": "mif:block/plant/leaves/normal-planar24.json"
+        "value": "mif:block/plant/leaves/normal.json"
     },
     {
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/lod0Shape/base",
-        "value": "mif:block/plant/leaves/normal-planar24.json"
+        "value": "mif:block/plant/leaves/normal.json"
     },
     {
         "op": "replace",
