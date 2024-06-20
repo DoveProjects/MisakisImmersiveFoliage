@@ -1,3 +1,6 @@
 {
-    "hello": "hello world!"
+    "settings-title": "Leaf Block Behaviors",
+    "setting-branchy-collision-enabled": "Branchy Leaves Have Collision",
+    "setting-movement-penalty-normal": "Normal Leaves Movement Penalty",
+    "setting-movement-penalty-branchy": "Branchy Leaves Movement Penalty"
 }

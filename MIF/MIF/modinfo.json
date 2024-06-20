@@ -1,10 +1,11 @@
 {
-    "type": "content",
+    "type": "code",
+    "side": "universal",
+    "requiredOnClient": true,
+    "requiredOnServer": false,
     "modid": "mif",
     "name": "MIF",
-    "authors": [
-        "Dov3, Aera"
-    ],
+    "authors": [ "Dov3, Aera" ],
     "description": "Leaves are intangible but slow down the player",
     "version": "1.0.0",
     "dependencies": {
