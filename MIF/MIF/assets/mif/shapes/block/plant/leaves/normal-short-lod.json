@@ -15,8 +15,8 @@
 	"elements": [
 		{
 			"name": "Cube3",
-			"from": [ -4.25, -4.0, 7.5 ],
-			"to": [ 19.75, 20.0, 7.5 ],
+			"from": [ -4.0, -4.0, 8.0 ],
+			"to": [ 20.0, 20.0, 8.0 ],
 			"shade": false,
 			"renderPass": 1,
 			"autoUnwrap": false,
@@ -27,14 +27,14 @@
 				"east": { "texture": "#largeleaves", "uv": [ 127.0, 0.0, 127.5, 24.0 ] },
 				"south": { "texture": "#largeleaves", "uv": [ 80.0, 80.0, 128.0, 128.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
 				"west": { "texture": "#largeleaves", "uv": [ 127.0, 0.0, 127.5, 24.0 ] },
-				"up": { "texture": "#largeleaves", "uv": [ 112.0, 0.0, 136.0, 0.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-				"down": { "texture": "#largeleaves", "uv": [ 112.0, 0.0, 136.0, 0.5 ], "windMode": [-1,-1,-1,-1] }
+				"up": { "texture": "#largeleaves", "uv": [ 103.5, 0.0, 127.5, 0.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#largeleaves", "uv": [ 103.5, 0.0, 127.5, 0.5 ], "windMode": [-1,-1,-1,-1] }
 			}
 		},
 		{
 			"name": "Cube8",
-			"from": [ 7.75, -4.0, -4.5 ],
-			"to": [ 7.75, 20.0, 19.5 ],
+			"from": [ 8.0, -4.0, -4.0 ],
+			"to": [ 8.0, 20.0, 20.0 ],
 			"shade": false,
 			"renderPass": 1,
 			"unwrapRotation": 1,
@@ -48,6 +48,22 @@
 				"west": { "texture": "#largeleaves", "uv": [ 32.0, 32.0, 80.0, 80.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
 				"up": { "texture": "#largeleaves", "uv": [ 127.0, 0.0, 127.5, 24.0 ] },
 				"down": { "texture": "#largeleaves", "uv": [ 127.0, 0.0, 127.5, 24.0 ] }
+			}
+		},
+		{
+			"name": "Cube2",
+			"from": [ -4.0, 8.0, -4.0 ],
+			"to": [ 20.0, 8.0, 20.0 ],
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ -4.0, 8.0, -4.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 103.5, 0.0, 127.5, 0.5 ] },
+				"east": { "texture": "#null", "uv": [ 104.0, 0.0, 128.0, 0.5 ] },
+				"south": { "texture": "#null", "uv": [ 104.0, 0.0, 128.0, 0.5 ] },
+				"west": { "texture": "#null", "uv": [ 103.5, 0.0, 127.5, 0.5 ] },
+				"up": { "texture": "#null", "uv": [ 80.0, 32.0, 128.0, 80.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#null", "uv": [ 32.0, 32.0, 80.0, 80.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
 			}
 		}
 	]}
