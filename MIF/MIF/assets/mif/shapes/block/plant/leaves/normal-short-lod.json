@@ -54,16 +54,17 @@
 			"name": "Cube2",
 			"from": [ -4.0, 8.0, -4.0 ],
 			"to": [ 20.0, 8.0, 20.0 ],
+			"renderPass": 1,
 			"autoUnwrap": false,
 			"uv": [ 0.0, 0.0 ],
 			"rotationOrigin": [ -4.0, 8.0, -4.0 ],
 			"faces": {
-				"north": { "texture": "#null", "uv": [ 103.5, 0.0, 127.5, 0.5 ] },
-				"east": { "texture": "#null", "uv": [ 104.0, 0.0, 128.0, 0.5 ] },
-				"south": { "texture": "#null", "uv": [ 104.0, 0.0, 128.0, 0.5 ] },
-				"west": { "texture": "#null", "uv": [ 103.5, 0.0, 127.5, 0.5 ] },
-				"up": { "texture": "#null", "uv": [ 80.0, 32.0, 128.0, 80.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
-				"down": { "texture": "#null", "uv": [ 32.0, 32.0, 80.0, 80.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+				"north": { "texture": "#largeleaves", "uv": [ 103.5, 0.0, 127.5, 0.5 ] },
+				"east": { "texture": "#largeleaves", "uv": [ 104.0, 0.0, 128.0, 0.5 ] },
+				"south": { "texture": "#largeleaves", "uv": [ 104.0, 0.0, 128.0, 0.5 ] },
+				"west": { "texture": "#largeleaves", "uv": [ 103.5, 0.0, 127.5, 0.5 ] },
+				"up": { "texture": "#largeleaves", "uv": [ 80.0, 32.0, 128.0, 80.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#largeleaves", "uv": [ 32.0, 32.0, 80.0, 80.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
 			}
 		}
 	]}
