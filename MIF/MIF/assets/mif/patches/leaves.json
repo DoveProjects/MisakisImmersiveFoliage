@@ -1,24 +1,29 @@
 [
     {
         "_comment": "----------------------------------------------BEHAVIORS-------------------------------------------------",
+        "side": "server",
         "op": "addmerge",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/walkspeedmultiplier",
-        "value": 0.75
+        "condition": { "when": "Normal_Movement_Penalty", "useValue": "true" }
     },
     {
+        "side": "server",    
         "op": "addmerge",
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "path": "/walkspeedmultiplier",
-        "value": 0.5
+        "condition": { "when": "Branchy_Movement_Penalty", "useValue": "true" }
     },
     {
+        "side": "server",    
         "op": "addmerge",
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "path": "/collisionbox",
-        "value": { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 }
+        "value": null,
+        "condition": { "when": "Branchy_Collision_Enabled", "isValue": "false" }
     },
     {
+        "side": "server",
         "op": "addmerge",
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "path": "/sounds/inside",
@@ -67,29 +72,6 @@
             "*-crimsonkingmaple": "block/plant/leaves/branchy-crimsonkingmaple-lod0",
             "*-larch": "block/plant/leaves/branchy-larch-lod0",
             "*": "block/plant/leaves/branchy-lod0"
-        }
-    },
-    {
-        "_comment": "------------------------------------------------TEXTURES------------------------------------------------",
-        "op": "replace",
-        "file": "game:blocktypes/plant/leaves/normal.json",
-        "path": "/textures/largeleavesByType",
-      "value": {
-        "*-larch": { "base": "mif:block/plant/leaves/large/pine1" },
-        "*-redwood": { "base": "mif:block/plant/leaves/large/pine1" },
-        "*-crimsonkingmaple": { "base": "mif:block/plant/leaves/large/maple*" },
-        "*": { "base": "mif:block/plant/leaves/large/{wood}*" }
-      }
-    },
-    {
-        "op": "replace",
-        "file": "game:blocktypes/plant/leaves/branchy.json",
-        "path": "/textures/largeleavesByType",
-        "value": {
-            "*-larch": { "base": "mif:block/plant/leaves/large/pine*" },
-          "*-redwood": { "base": "mif:block/plant/leaves/large/pine*" },
-            "*-crimsonkingmaple": { "base": "mif:block/plant/leaves/large/maple*" },
-            "*": { "base": "mif:block/plant/leaves/large/{wood}*" }
         }
     }
 ]

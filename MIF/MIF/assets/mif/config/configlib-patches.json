@@ -1,0 +1,42 @@
+{
+	"version": 0,
+	"file": "Misaki's Immersive Foliage.json",
+	"patches": {},
+	"settings": [
+		{
+			"type": "separator",
+			"title": "mif:settings-title"
+		},
+		{
+			"code": "Branchy_Collision_Enabled",
+			"ingui": "mif:setting-branchy-collision-enabled",
+			"comment": "Toggle whether branchy leaf blocks have collision or can be walked through.",
+			"type": "boolean",
+			"default": false
+		},
+		{
+			"code": "Normal_Movement_Penalty",
+			"ingui": "mif:setting-movement-penalty-normal",
+			"comment": "Set the movement speed penalty for normal leaves. 1.0 = normal movement.",
+			"type": "float",
+			"default": 0.7,
+			"range": {
+				"min": 0.0,
+				"max": 1.0,
+				"step": 0.1
+			}
+		},
+		{
+			"code": "Branchy_Movement_Penalty",
+			"ingui": "mif:setting-movement-penalty-branchy",
+			"comment": "Set the movement speed penalty for branchy leaves. 1.0 = normal movement.",
+			"type": "float",
+			"default": 0.5,
+			"range": {
+				"min": 0.0,
+				"max": 1.0,
+				"step": 0.1
+			}
+		}
+	]
+}
