@@ -7,9 +7,10 @@
 	"textureHeight": 128,
 	"textureSizes": {
 		"largeleaves": [128,128],
-		"branch": [16,16]
+		"branch": [128,128]
 	},
 	"textures": {
+		"branch": "game:block/plant/leaves/large/branch"
 	},
 	"elements": [
 		{

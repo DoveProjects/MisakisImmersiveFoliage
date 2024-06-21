@@ -63,14 +63,14 @@
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "path": "/lod0Shape/baseByType",
         "value": {
-            "*-pine": "mif:block/plant/leaves/branchy",
-            "*-redwood": "mif:block/plant/leaves/branchy",
-            "*-birch": "mif:block/plant/leaves/branchy",
-            "*-maple": "mif:block/plant/leaves/branchy",
-            "*-oak": "mif:block/plant/leaves/branchy",
-            "*-kapok": "mif:block/plant/leaves/branchy",
-            "*-crimsonkingmaple": "mif:block/plant/leaves/branchy",
-            "*-larch": "mif:block/plant/leaves/branchy",
+            "*-pine": "mif:block/plant/leaves/branchy-lod",
+            "*-redwood": "mif:block/plant/leaves/branchy-lod",
+            "*-birch": "mif:block/plant/leaves/branchy-lod",
+            "*-maple": "mif:block/plant/leaves/branchy-lod",
+            "*-oak": "mif:block/plant/leaves/branchy-lod",
+            "*-kapok": "mif:block/plant/leaves/branchy-lod",
+            "*-crimsonkingmaple": "mif:block/plant/leaves/branchy-lod",
+            "*-larch": "mif:block/plant/leaves/branchy-lod",
             "*": "mif:block/plant/leaves/branchy-lod"
         }
     }
