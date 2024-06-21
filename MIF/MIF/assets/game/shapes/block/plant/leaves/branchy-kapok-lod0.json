@@ -1,0 +1,50 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 128,
+	"textureHeight": 128,
+	"textureSizes": {
+		"largeleaves": [128,128],
+		"branch": [128,128]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Cube3",
+			"from": [ 0.0, 0.0, 8.0 ],
+			"to": [ 16.0, 16.0, 8.0 ],
+			"shade": false, "gradientShade": true,
+			"autoUnwrap": false,
+			"uv": [ 15.0, -3.0 ],
+			"rotationOrigin": [ 4.0, 4.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#branch", "uv": [ 0.0, 0.0, 64.0, 64.0 ], "autoUv": false, "windMode": [3,3,3,3], "windData": [0,1,1,0] },
+				"east": { "texture": "#branch", "uv": [ 127.0, 0.0, 127.5, 16.0 ] },
+				"south": { "texture": "#branch", "uv": [ 64.0, 0.0, 128.0, 64.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"west": { "texture": "#branch", "uv": [ 127.0, 0.0, 127.5, 16.0 ] },
+				"up": { "texture": "#branch", "uv": [ 103.5, 0.0, 119.5, 0.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#branch", "uv": [ 103.5, 0.0, 119.5, 0.5 ], "windMode": [-1,-1,-1,-1] }
+			}
+		},
+		{
+			"name": "Cube8",
+			"from": [ 8.0, 0.0, 0.0 ],
+			"to": [ 8.0, 16.0, 16.0 ],
+			"shade": false, "gradientShade": true,
+			"unwrapRotation": 1,
+			"autoUnwrap": false,
+			"uv": [ 94.0, 96.0 ],
+			"rotationOrigin": [ 9.0, 0.0, -1.0 ],
+			"faces": {
+				"north": { "texture": "#branch", "uv": [ 127.0, 0.0, 127.5, 16.0 ], "windMode": [3,3,3,3], "windData": [0,1,1,0] },
+				"east": { "texture": "#branch", "uv": [ 64.0, 0.0, 128.0, 64.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+				"south": { "texture": "#branch", "uv": [ 127.0, 0.0, 127.5, 16.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"west": { "texture": "#branch", "uv": [ 0.0, 0.0, 64.0, 64.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"up": { "texture": "#branch", "uv": [ 127.0, 0.0, 127.5, 16.0 ] },
+				"down": { "texture": "#branch", "uv": [ 127.0, 0.0, 127.5, 16.0 ] }
+			}
+		}
+	]}
