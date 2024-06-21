@@ -28,7 +28,7 @@
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "path": "/sounds/inside",
         "value": "walk/inside/leafy/bushrustle*"
-    },
+    }/*,
     {
         "_comment": "-------------------------------------------------MODELS-------------------------------------------------",
         "op": "replace",
@@ -73,6 +73,6 @@
             "*-larch": "mif:block/plant/leaves/branchy-lod",
             "*": "mif:block/plant/leaves/branchy-lod"
         }
-    }
+    }*/
 ]
 
