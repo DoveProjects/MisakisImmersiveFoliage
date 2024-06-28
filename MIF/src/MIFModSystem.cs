@@ -8,12 +8,13 @@ namespace MIF;
 public class MIFModSystem : ModSystem
 {
     public static MIFConfig MIFConfig { get; private set; }
+    private readonly string configName = "misakis_immersive_foliage.json";
 
     public override void AssetsFinalize(ICoreAPI api)
     {
         if (api.Side.IsServer())
         {
-            MIFConfig = ModConfig.ReadConfig<MIFConfig>(api, "Misaki's Immersive Foliage.json");
+            MIFConfig = ModConfig.ReadConfig<MIFConfig>(api, configName);
 
             //Apply config values for use in json patches
             api.World.Config.SetBool("Branchy_Collision_Enabled", MIFConfig.Branchy_Collision_Enabled);
