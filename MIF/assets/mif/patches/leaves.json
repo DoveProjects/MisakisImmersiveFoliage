@@ -29,6 +29,20 @@
         "path": "/sounds/inside",
         "value": "walk/inside/leafy/bushrustle*"
     },
+    {
+        "side": "server",    
+        "op": "replace",
+        "file": "game:blocktypes/plant/leaves/normal.json",
+        "path": "/snowCoverage",
+        "value": false
+    },
+    {
+        "side": "server",    
+        "op": "replace",
+        "file": "game:blocktypes/plant/leaves/branchy.json",
+        "path": "/snowCoverage",
+        "value": false
+    },
     /*{
         "_comment": "-------------------------------------------------MODELS-------------------------------------------------",
         "op": "replace",
