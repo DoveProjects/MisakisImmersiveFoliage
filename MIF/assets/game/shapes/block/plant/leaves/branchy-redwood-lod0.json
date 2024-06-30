@@ -3,9 +3,11 @@
 		"allAngles": false,
 		"entityTextureMode": false
 	},
-	"textureWidth": 72,
-	"textureHeight": 72,
+	"textureWidth": 48,
+	"textureHeight": 48,
 	"textureSizes": {
+		"largeleaves": [72,72],
+		"branch": [48,48]
 	},
 	"textures": {
 	},
@@ -15,6 +17,8 @@
 			"from": [ -10.0, 4.0, 8.0 ],
 			"to": [ 26.0, 12.0, 8.0 ],
 			"shade": false,
+			"climateColorMap": "climateDarkerPlantTint",
+			"seasonColorMap": "seasonalNeedles",
 			"renderPass": 1,
 			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
 			"rotationY": -45.0,
@@ -28,6 +32,8 @@
 			"from": [ 4.0, -10.0, 8.0 ],
 			"to": [ 12.0, 26.0, 8.0 ],
 			"shade": false,
+			"climateColorMap": "climateDarkerPlantTint",
+			"seasonColorMap": "seasonalNeedles",
 			"renderPass": 1,
 			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
 			"rotationX": -90.0,
@@ -42,6 +48,8 @@
 			"from": [ 4.0, -10.0, 8.0 ],
 			"to": [ 12.0, 26.0, 8.0 ],
 			"shade": false,
+			"climateColorMap": "climateDarkerPlantTint",
+			"seasonColorMap": "seasonalNeedles",
 			"renderPass": 1,
 			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
 			"rotationX": 90.0,
@@ -56,6 +64,8 @@
 			"from": [ 4.0, -10.0, 8.0 ],
 			"to": [ 12.0, 26.0, 8.0 ],
 			"shade": false,
+			"climateColorMap": "climateDarkerPlantTint",
+			"seasonColorMap": "seasonalNeedles",
 			"renderPass": 1,
 			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
 			"rotationX": -45.0,
@@ -68,6 +78,8 @@
 			"from": [ 4.0, -10.0, 8.0 ],
 			"to": [ 12.0, 26.0, 8.0 ],
 			"shade": false,
+			"climateColorMap": "climateDarkerPlantTint",
+			"seasonColorMap": "seasonalNeedles",
 			"renderPass": 1,
 			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
 			"rotationX": 45.0,
@@ -80,12 +92,28 @@
 			"from": [ -10.0, 4.0, 8.0 ],
 			"to": [ 26.0, 12.0, 8.0 ],
 			"shade": false,
+			"climateColorMap": "climateDarkerPlantTint",
+			"seasonColorMap": "seasonalNeedles",
 			"renderPass": 1,
 			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
 			"rotationY": 45.0,
 			"rotationZ": -0.41,
 			"faces": {
 				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 72.0 ], "rotation": 90, "autoUv": false }
+			}
+		},
+		{
+			"name": "HBranch",
+			"from": [ -3.0, 7.4, -3.0 ],
+			"to": [ 19.0, 7.4, 19.0 ],
+			"shade": false,
+			"climateColorMap": "",
+			"seasonColorMap": "",
+			"renderPass": 1,
+			"rotationOrigin": [ 8.0, 7.9, 8.0 ],
+			"rotationY": -45.0,
+			"faces": {
+				"up": { "texture": "#branch", "uv": [ 0.56, -0.0625, 47.8125, 47.9375 ], "autoUv": false }
 			}
 		}
 	]}
