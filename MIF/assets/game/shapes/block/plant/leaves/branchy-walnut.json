@@ -15,6 +15,8 @@
 			"from": [ -4.0, -4.0, 8.0 ],
 			"to": [ 20.0, 20.0, 8.0 ],
 			"shade": false,
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalWalnut",
 			"renderPass": 1,
 			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
 			"faces": {
@@ -26,6 +28,8 @@
 			"from": [ 8.0, -4.0, -4.0 ],
 			"to": [ 8.0, 20.0, 20.0 ],
 			"shade": false,
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalWalnut",
 			"renderPass": 1,
 			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
 			"faces": {
@@ -37,6 +41,8 @@
 			"from": [ -4.0, 8.0, -4.0 ],
 			"to": [ 20.0, 8.0, 20.0 ],
 			"shade": false,
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalWalnut",
 			"renderPass": 1,
 			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
 			"faces": {

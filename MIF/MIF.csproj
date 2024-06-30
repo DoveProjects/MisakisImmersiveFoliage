@@ -57,22 +57,6 @@
   <None Remove="assets\mif\shapes\block\plant\leaves\branchy-lod.json" />
   <None Remove="assets\mif\shapes\block\plant\leaves\branchy.json" />
   <None Remove="assets\mif\shapes\block\plant\leaves\LeavesFull.json" />
-  <None Remove="assets\game\textures\block\plant\leaves\large\acacia1.png" />
-  <None Remove="assets\game\textures\block\plant\leaves\large\baldcypress1.png" />
-  <None Remove="assets\game\textures\block\plant\leaves\large\birch1.png" />
-  <None Remove="assets\game\textures\block\plant\leaves\large\blueberry.png" />
-  <None Remove="assets\game\textures\block\plant\leaves\large\branch.png" />
-  <None Remove="assets\game\textures\block\plant\leaves\large\cranberry.png" />
-  <None Remove="assets\game\textures\block\plant\leaves\large\ebony1.png" />
-  <None Remove="assets\game\textures\block\plant\leaves\large\greenspirecypress1.png" />
-  <None Remove="assets\game\textures\block\plant\leaves\large\kapok1.png" />
-  <None Remove="assets\game\textures\block\plant\leaves\large\maple1.png" />
-  <None Remove="assets\game\textures\block\plant\leaves\large\oak1.png" />
-  <None Remove="assets\game\textures\block\plant\leaves\large\pine1.png" />
-  <None Remove="assets\game\textures\block\plant\leaves\large\purpleheart1.png" />
-  <None Remove="assets\game\textures\block\plant\leaves\large\redcurrant.png" />
-  <None Remove="assets\game\textures\block\plant\leaves\large\walnut1.png" />
-  <None Remove="assets\game\textures\block\plant\leaves\large\whitecurrant.png" />
   <None Remove="assets\mif\textures\block\plant\leaves\tuft\oak-tuft2.png" />
   <Content Include="modinfo.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
