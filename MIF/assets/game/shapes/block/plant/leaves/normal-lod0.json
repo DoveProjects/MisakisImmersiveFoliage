@@ -1,10 +1,10 @@
 {
 	"editor": {
 		"allAngles": false,
-		"entityTextureMode": false
+		"entityTextureMode": true
 	},
-	"textureWidth": 32,
-	"textureHeight": 32,
+	"textureWidth": 72,
+	"textureHeight": 72,
 	"textureSizes": {
 		"largeleaves": [32,32]
 	},
@@ -17,11 +17,13 @@
 			"to": [ 26.0, 12.0, 8.0 ],
 			"shade": false,
 			"renderPass": 1,
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
 			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
 			"rotationY": -45.0,
 			"rotationZ": -0.41,
 			"faces": {
-				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 4.0, 20.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 72.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1] }
 			}
 		},
 		{
@@ -30,12 +32,14 @@
 			"to": [ 12.0, 26.0, 8.0 ],
 			"shade": false,
 			"renderPass": 1,
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
 			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
 			"rotationX": -90.0,
 			"rotationY": 45.0,
 			"rotationZ": 90.0,
 			"faces": {
-				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 4.0, 20.0 ], "autoUv": false }
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 72.0 ], "autoUv": false }
 			}
 		},
 		{
@@ -44,12 +48,14 @@
 			"to": [ 12.0, 26.0, 8.0 ],
 			"shade": false,
 			"renderPass": 1,
+			"autoUnwrap": false,
+			"uv": [ 4.0, 0.0 ],
 			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
 			"rotationX": 90.0,
 			"rotationY": 45.0,
 			"rotationZ": -90.0,
 			"faces": {
-				"south": { "texture": "#largeleaves", "uv": [ 4.0, 0.0, 8.0, 20.0 ], "autoUv": false }
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 72.0 ], "autoUv": false }
 			}
 		},
 		{
@@ -58,10 +64,12 @@
 			"to": [ 12.0, 26.0, 8.0 ],
 			"shade": false,
 			"renderPass": 1,
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
 			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
 			"rotationX": -45.0,
 			"faces": {
-				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 4.0, 20.0 ], "autoUv": false }
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 72.0 ], "autoUv": false }
 			}
 		},
 		{
@@ -70,10 +78,12 @@
 			"to": [ 12.0, 26.0, 8.0 ],
 			"shade": false,
 			"renderPass": 1,
+			"autoUnwrap": false,
+			"uv": [ 4.0, 0.0 ],
 			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
 			"rotationX": 45.0,
 			"faces": {
-				"south": { "texture": "#largeleaves", "uv": [ 4.0, 0.0, 8.0, 20.0 ], "autoUv": false }
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 72.0 ], "autoUv": false }
 			}
 		},
 		{
@@ -82,11 +92,13 @@
 			"to": [ 26.0, 12.0, 8.0 ],
 			"shade": false,
 			"renderPass": 1,
+			"autoUnwrap": false,
+			"uv": [ 4.0, 0.0 ],
 			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
 			"rotationY": 45.0,
 			"rotationZ": -0.41,
 			"faces": {
-				"south": { "texture": "#largeleaves", "uv": [ 4.0, 0.0, 8.0, 20.0 ], "rotation": 90, "autoUv": false }
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 72.0 ], "rotation": 90, "autoUv": false }
 			}
 		}
 	]}
