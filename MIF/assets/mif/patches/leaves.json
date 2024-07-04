@@ -1,43 +1,14 @@
 [
     {
-        "_comment": "----------------------------------------------BEHAVIORS-------------------------------------------------",
-        "side": "server",
-        "op": "addmerge",
-        "file": "game:blocktypes/plant/leaves/normal.json",
-        "path": "/walkspeedmultiplier",
-        "condition": { "when": "Normal_Movement_Penalty", "useValue": "true" }
-    },
-    {
-        "side": "server",    
-        "op": "addmerge",
-        "file": "game:blocktypes/plant/leaves/branchy.json",
-        "path": "/walkspeedmultiplier",
-        "condition": { "when": "Branchy_Movement_Penalty", "useValue": "true" }
-    },
-    {
-        "side": "server",    
-        "op": "addmerge",
-        "file": "game:blocktypes/plant/leaves/branchy.json",
-        "path": "/collisionbox",
-        "value": null,
-        "condition": { "when": "Branchy_Collision_Enabled", "isValue": "false" }
-    },
-    {
-        "side": "server",
-        "op": "addmerge",
-        "file": "game:blocktypes/plant/leaves/branchy.json",
-        "path": "/sounds/inside",
-        "value": "walk/inside/leafy/bushrustle*"
-    },
-    {
-        "side": "server",    
+        "_comment": "----------------------------------------------BEHAVIORS-------------------------------------------------",  
+        "side": "client",
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/snowCoverage",
         "value": false
     },
-    {
-        "side": "server",    
+    {   
+        "side": "client",    
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "path": "/snowCoverage",
@@ -45,51 +16,56 @@
     },
     {
         "_comment": "-----------------------------------------------TEXTURES------------------------------------------------",
+        "side": "client",   
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/textures/largeleavesByType",
         "value": {
-			"*-larch": { base: "mif:block/plant/leaves/large/pine*" },
-			"*-redwood": { base: "mif:block/plant/leaves/large/pine*" },
-			"*-crimsonkingmaple": { base: "mif:block/plant/leaves/large/maple*" },
-			"*": { base: "mif:block/plant/leaves/large/{wood}*" },
+			"*-larch": { base: "mif:block/plant/leaves/large/pine3" },
+			"*-redwood": { base: "mif:block/plant/leaves/large/pine3" },
+			"*-crimsonkingmaple": { base: "mif:block/plant/leaves/large/maple3" },
+			"*": { base: "mif:block/plant/leaves/large/{wood}3" },
 		}
     },
     {
+        "side": "client",       
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/textures/smallleavesByType",
         "value": {
-			"*-larch": { base: "mif:block/plant/leaves/small/pine*" },
-			"*-redwood": { base: "mif:block/plant/leaves/small/pine*" },
-			"*-crimsonkingmaple": { base: "mif:block/plant/leaves/small/maple*" },
-			"*": { base: "mif:block/plant/leaves/small/{wood}*" },
+			"*-larch": { base: "mif:block/plant/leaves/small/pine3" },
+			"*-redwood": { base: "mif:block/plant/leaves/small/pine3" },
+			"*-crimsonkingmaple": { base: "mif:block/plant/leaves/small/maple3" },
+			"*": { base: "mif:block/plant/leaves/small/{wood}3" },
 		}
     },
     {
+        "side": "client",   
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "path": "/textures/largeleavesByType",
         "value": {
-			"*-larch": { base: "mif:block/plant/leaves/large/pine*" },
-			"*-redwood": { base: "mif:block/plant/leaves/large/pine*" },
-			"*-crimsonkingmaple": { base: "mif:block/plant/leaves/large/maple*" },
-			"*": { base: "mif:block/plant/leaves/large/{wood}*" },
+			"*-larch": { base: "mif:block/plant/leaves/large/pine3" },
+			"*-redwood": { base: "mif:block/plant/leaves/large/pine3" },
+			"*-crimsonkingmaple": { base: "mif:block/plant/leaves/large/maple3" },
+			"*": { base: "mif:block/plant/leaves/large/{wood}3" },
 		}
     },
     {
+        "side": "client",   
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "path": "/textures/smallleavesByType",
         "value": {
-			"*-larch": { base: "mif:block/plant/leaves/small/pine*" },
-			"*-redwood": { base: "mif:block/plant/leaves/small/pine*" },
-			"*-crimsonkingmaple": { base: "mif:block/plant/leaves/small/maple*" },
-			"*": { base: "mif:block/plant/leaves/small/{wood}*" },
+			"*-larch": { base: "mif:block/plant/leaves/small/pine3" },
+			"*-redwood": { base: "mif:block/plant/leaves/small/pine3" },
+			"*-crimsonkingmaple": { base: "mif:block/plant/leaves/small/maple3" },
+			"*": { base: "mif:block/plant/leaves/small/{wood}3" },
 		}
     },
     {
         "_comment": "-------------------------------------------BRANCH TINTING-------------------------------------------",
+        "side": "client",   
         "op": "addmerge",
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "path": "/seasonColorMapByType",

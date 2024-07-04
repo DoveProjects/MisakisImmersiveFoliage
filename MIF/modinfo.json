@@ -1,12 +1,10 @@
 {
-    "type": "code",
-    "side": "universal",
-    "requiredOnClient": true,
-    "requiredOnServer": false,
+    "type": "content",
+    "side": "Client",
     "modid": "mif",
     "name": "MIF",
     "authors": [ "Dov3, Aera" ],
-    "description": "Leaves are intangible but slow down the player",
+    "description": "Bushy leaves and berry bushes.",
     "version": "1.0.0",
     "dependencies": {
         "game": ""
