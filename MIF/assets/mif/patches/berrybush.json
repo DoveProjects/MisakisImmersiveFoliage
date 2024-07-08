@@ -1,0 +1,79 @@
+[
+    {
+        "_comment": "------------------------------------------------MODELS-------------------------------------------------",
+        "side": "server",   
+        "op": "replace",
+        "file": "game:blocktypes/plant/smallberrybush.json",
+        "path": "/shapeByType",
+        "value": {
+		    "*-empty": { base: "mif:block/plant/berrybush/small*", selectiveElements: ["Leaves/*", "Leaves1/*", "DBranches/*", "Branches", "LargeLeaves/*"] },
+		    "*": { base: "mif:block/plant/berrybush/small*" },
+	    }
+    },
+    {
+        "side": "server",   
+        "op": "replace",
+        "file": "game:blocktypes/plant/bigberrybush.json",
+        "path": "/shapeByType",
+        "value": {
+		    "*-empty": { base: "mif:block/plant/berrybush/large*", selectiveElements: ["Leaves/*", "Leaves1/*", "DBranches/*", "Branches", "LargeLeaves/*"] },
+		    "*": { base: "mif:block/plant/berrybush/large*" },
+	    }
+    },
+    {
+        "_comment": "-----------------------------------------------TEXTURES------------------------------------------------",
+        "side": "server",   
+        "op": "replace",
+        "file": "game:blocktypes/plant/bigberrybush.json",
+        "path": "/textures",
+        "value": {
+		    "leavessmall": { base: "mif:block/plant/berrybush/small/leaves/{type}*" },
+		    "leaveslarge": { base: "mif:block/plant/berrybush/large/leaves/{type}*" },
+            "branch": { base: "mif:block/plant/leaves/large/branch" }
+	    }
+    },
+    {
+        "side": "server",   
+        "op": "replace",
+        "file": "game:blocktypes/plant/bigberrybush.json",
+        "path": "/texturesByType",
+        "value": {
+		    "*-flowering": {
+			    "flowerberrysmall": { base: "mif:block/plant/berrybush/small/flower/{type}*" },
+			    "flowerberrylarge": { base: "mif:block/plant/berrybush/large/flower/{type}*" },
+		    },
+		    "*-ripe": {
+			    "flowerberrysmall": { base: "mif:block/plant/berrybush/small/fruit/{type}*" },
+			    "flowerberrylarge": { base: "mif:block/plant/berrybush/large/fruit/{type}*" },
+		    }
+	    }
+    },
+    {
+        "side": "server",   
+        "op": "replace",
+        "file": "game:blocktypes/plant/smallberrybush.json",
+        "path": "/textures",
+        "value": {
+		    "leavessmall": { base: "mif:block/plant/berrybush/small/leaves/{type}*" },
+		    "leaveslarge": { base: "mif:block/plant/berrybush/large/leaves/{type}*" },
+            "branch": { base: "mif:block/plant/leaves/large/branch" }
+	    }
+    },
+    {
+        "side": "server",   
+        "op": "replace",
+        "file": "game:blocktypes/plant/smallberrybush.json",
+        "path": "/texturesByType",
+        "value": {
+		    "*-flowering": {
+			    "flowerberrysmall": { base: "mif:block/plant/berrybush/small/flower/{type}*" },
+			    "flowerberrylarge": { base: "mif:block/plant/berrybush/large/flower/{type}*" },
+		    },
+		    "*-ripe": {
+			    "flowerberrysmall": { base: "mif:block/plant/berrybush/small/fruit/{type}*" },
+			    "flowerberrylarge": { base: "mif:block/plant/berrybush/large/fruit/{type}*" },
+		    }
+	    }
+    }
+]
+
