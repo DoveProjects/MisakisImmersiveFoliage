@@ -1,0 +1,238 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"largeleaves": [72,72],
+		"branch": [48,48]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "HNorth1",
+			"from": [ -10.0, 4.0, 8.0 ],
+			"to": [ 26.0, 12.0, 8.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"rotationY": -45.0,
+			"rotationZ": -0.41,
+			"faces": {
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 72.0 ], "rotation": 90, "autoUv": false }
+			}
+		},
+		{
+			"name": "VNorth1",
+			"from": [ 4.0, -10.0, 8.0 ],
+			"to": [ 12.0, 26.0, 8.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"rotationX": -90.0,
+			"rotationY": 45.0,
+			"rotationZ": 90.0,
+			"faces": {
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 72.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "VNorth2",
+			"from": [ 4.0, -10.0, 8.0 ],
+			"to": [ 12.0, 26.0, 8.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"rotationX": 90.0,
+			"rotationY": 45.0,
+			"rotationZ": -90.0,
+			"faces": {
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 72.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "VSouth1",
+			"from": [ 4.0, -10.0, 8.0 ],
+			"to": [ 12.0, 26.0, 8.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"rotationX": -45.0,
+			"faces": {
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 72.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "VSouth2",
+			"from": [ 4.0, -10.0, 8.0 ],
+			"to": [ 12.0, 26.0, 8.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"rotationX": 45.0,
+			"faces": {
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 72.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "HNorth2",
+			"from": [ -10.0, 4.0, 8.0 ],
+			"to": [ 26.0, 12.0, 8.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"rotationY": 45.0,
+			"rotationZ": -0.41,
+			"faces": {
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 72.0 ], "rotation": 90, "autoUv": false }
+			}
+		},
+		{
+			"name": "HBranch",
+			"from": [ -3.0, 7.4, -3.0 ],
+			"to": [ 19.0, 7.4, 19.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 8.0, 7.9, 8.0 ],
+			"rotationY": -45.0,
+			"faces": {
+				"up": { "texture": "#branch", "uv": [ 0.56, -0.0625, 47.8125, 47.9375 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Leaves2",
+			"from": [ 0.0, 1.0, 0.0 ],
+			"to": [ 16.0, 17.0, 16.0 ],
+			"shade": false,
+			"rotationOrigin": [ 8.0, 9.0, 8.0 ],
+			"rotationY": -45.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "VNorth3",
+					"from": [ 8.0, -2.0, 8.0 ],
+					"to": [ 16.0, 22.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 12.0, 10.0, 8.0 ],
+					"rotationX": -90.0,
+					"rotationY": 45.0,
+					"rotationZ": 90.0,
+					"faces": {
+						"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 72.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "VNorth4",
+					"from": [ 0.0, -2.0, 8.0 ],
+					"to": [ 8.0, 22.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 4.0, 10.0, 8.0 ],
+					"rotationX": 90.0,
+					"rotationY": 45.0,
+					"rotationZ": -90.0,
+					"faces": {
+						"south": { "texture": "#largeleaves", "uv": [ 16.0, 72.0, 0.0, 0.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "VSouth3",
+					"from": [ 4.0, -2.0, 12.0 ],
+					"to": [ 12.0, 22.0, 12.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 8.0, 10.0, 12.0 ],
+					"rotationX": -45.0,
+					"faces": {
+						"south": { "texture": "#largeleaves", "uv": [ 16.0, 72.0, 0.0, 0.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "VSouth4",
+					"from": [ 4.0, -2.0, 4.0 ],
+					"to": [ 12.0, 22.0, 4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 8.0, 10.0, 4.0 ],
+					"rotationX": 45.0,
+					"faces": {
+						"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 72.0 ], "autoUv": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "Leaves3",
+			"from": [ 0.0, -1.0, 0.0 ],
+			"to": [ 16.0, 15.0, 16.0 ],
+			"shade": false,
+			"rotationOrigin": [ 8.0, 7.0, 8.0 ],
+			"rotationY": -45.0,
+			"rotationZ": 180.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "VNorth5",
+					"from": [ 8.0, -2.0, 8.0 ],
+					"to": [ 16.0, 22.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 12.0, 10.0, 8.0 ],
+					"rotationX": 90.0,
+					"rotationY": -45.0,
+					"rotationZ": -90.0,
+					"faces": {
+						"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 72.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "VNorth6",
+					"from": [ 0.0, -2.0, 8.0 ],
+					"to": [ 8.0, 22.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 4.0, 10.0, 8.0 ],
+					"rotationX": -90.0,
+					"rotationY": -45.0,
+					"rotationZ": 90.0,
+					"faces": {
+						"south": { "texture": "#largeleaves", "uv": [ 16.0, 72.0, 0.0, 0.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "VSouth5",
+					"from": [ 4.0, -2.0, 12.0 ],
+					"to": [ 12.0, 22.0, 12.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 8.0, 10.0, 12.0 ],
+					"rotationX": -45.0,
+					"rotationY": -180.0,
+					"rotationZ": -180.0,
+					"faces": {
+						"south": { "texture": "#largeleaves", "uv": [ 16.0, 72.0, 0.0, 0.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "VSouth6",
+					"from": [ 4.0, -2.0, 4.0 ],
+					"to": [ 12.0, 22.0, 4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 8.0, 10.0, 4.0 ],
+					"rotationX": 45.0,
+					"rotationY": -180.0,
+					"rotationZ": -180.0,
+					"faces": {
+						"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 16.0, 72.0 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

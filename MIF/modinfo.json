@@ -1,10 +1,10 @@
 {
     "type": "content",
-    "side": "Client",
+    "side": "universal",
     "modid": "mif",
     "name": "MIF",
     "authors": [ "Dov3, Aera" ],
-    "description": "Bushy leaves and berry bushes.",
+    "description": "Bushy leaves and leafy bushes.",
     "version": "1.0.0",
     "dependencies": {
         "game": ""
