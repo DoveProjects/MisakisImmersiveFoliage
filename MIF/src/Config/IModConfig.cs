@@ -1,7 +1,7 @@
-namespace MIF.Config
+﻿namespace Ele.Configuration
 {
-    public interface IModConfig
+    public interface IModConfig 
     {
-        
+        bool Is_Enabled { get; set; }
     }
 }

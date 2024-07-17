@@ -41,7 +41,16 @@
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/lod0Shape/base",
-        "value": "mif:block/plant/leaves/normal-lod0"
+        "value": "mif:block/plant/leaves/normal-lod0-lite",
+        "condition": { "when": "Leaf_Model_Type", "isValue": "Lite" }
+    },
+    {
+        "side": "server",   
+        "op": "replace",
+        "file": "game:blocktypes/plant/leaves/normal.json",
+        "path": "/lod0Shape/base",
+        "value": "mif:block/plant/leaves/normal-lod0-full",
+        "condition": { "when": "Leaf_Model_Type", "isValue": "Full" }
     },
     {
         "side": "server",   
@@ -58,15 +67,26 @@
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "path": "/lod0Shape/baseByType",
         "value": {
-			"*": "mif:block/plant/leaves/branchy-lod0"
-		}
+			"*": "mif:block/plant/leaves/branchy-lod0-lite"
+		},
+        "condition": { "when": "Leaf_Model_Type", "isValue": "Lite" }
+    },
+    {
+        "side": "server",   
+        "op": "replace",
+        "file": "game:blocktypes/plant/leaves/branchy.json",
+        "path": "/lod0Shape/baseByType",
+        "value": {
+			"*": "mif:block/plant/leaves/branchy-lod0-full"
+		},
+        "condition": { "when": "Leaf_Model_Type", "isValue": "Full" }
     },
     {
         "side": "server",   
         "op": "replace",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/shapeInventory/base",
-        "value": "mif:block/plant/leaves/normal-lod0"
+        "value": "mif:block/plant/leaves/normal-lod0-full"
     },
     {
         "side": "server",   
@@ -74,7 +94,7 @@
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "path": "/shapeInventory/baseByType",
         "value": {
-			"*": "mif:block/plant/leaves/branchy-lod0"
+			"*": "mif:block/plant/leaves/branchy-lod0-full"
 		}
     },
     {

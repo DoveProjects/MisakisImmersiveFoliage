@@ -8,7 +8,8 @@
         "value": {
 		    "*-empty": { base: "mif:block/plant/berrybush/small*", selectiveElements: ["Leaves/*", "Leaves1/*", "DBranches/*", "Branches", "LargeLeaves/*"] },
 		    "*": { base: "mif:block/plant/berrybush/small*" },
-	    }
+	    },
+        "condition": { "when": "Use_Vanilla_Bushes", "isValue": "false" }
     },
     {
         "side": "server",   
@@ -18,7 +19,8 @@
         "value": {
 		    "*-empty": { base: "mif:block/plant/berrybush/large*", selectiveElements: ["Leaves/*", "Leaves1/*", "DBranches/*", "Branches", "LargeLeaves/*"] },
 		    "*": { base: "mif:block/plant/berrybush/large*" },
-	    }
+	    },
+        "condition": { "when": "Use_Vanilla_Bushes", "isValue": "false" }
     },
     {
         "_comment": "-----------------------------------------------TEXTURES------------------------------------------------",
@@ -30,7 +32,8 @@
 		    "leavessmall": { base: "mif:block/plant/berrybush/small/leaves/{type}*" },
 		    "leaveslarge": { base: "mif:block/plant/berrybush/large/leaves/{type}*" },
             "branch": { base: "mif:block/plant/leaves/large/branch" }
-	    }
+	    },
+        "condition": { "when": "Use_Vanilla_Bushes", "isValue": "false" }
     },
     {
         "side": "server",   
@@ -46,7 +49,8 @@
 			    "flowerberrysmall": { base: "mif:block/plant/berrybush/small/fruit/{type}*" },
 			    "flowerberrylarge": { base: "mif:block/plant/berrybush/large/fruit/{type}*" },
 		    }
-	    }
+	    },
+        "condition": { "when": "Use_Vanilla_Bushes", "isValue": "false" }
     },
     {
         "side": "server",   
@@ -57,7 +61,8 @@
 		    "leavessmall": { base: "mif:block/plant/berrybush/small/leaves/{type}*" },
 		    "leaveslarge": { base: "mif:block/plant/berrybush/large/leaves/{type}*" },
             "branch": { base: "mif:block/plant/leaves/large/branch" }
-	    }
+	    },
+        "condition": { "when": "Use_Vanilla_Bushes", "isValue": "false" }
     },
     {
         "side": "server",   
@@ -73,7 +78,8 @@
 			    "flowerberrysmall": { base: "mif:block/plant/berrybush/small/fruit/{type}*" },
 			    "flowerberrylarge": { base: "mif:block/plant/berrybush/large/fruit/{type}*" },
 		    }
-	    }
+	    },
+        "condition": { "when": "Use_Vanilla_Bushes", "isValue": "false" }
     }
 ]
 

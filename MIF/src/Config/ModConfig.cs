@@ -1,50 +1,31 @@
-using System;
+﻿using Newtonsoft.Json;
 using Vintagestory.API.Common;
+using Ele.Configuration;
 
-namespace MIF.Config
+
+namespace Ele.MIF
 {
-    public static class ModConfig
+    public class ModConfig : IModConfig
     {
-        public static T ReadConfig<T>(ICoreAPI api, string jsonConfig) where T : class, IModConfig
+        [JsonIgnore]
+        public bool Is_Enabled { get; set; }
+
+        public ModelType Leaf_Model_Type { get; set; }
+        public bool Use_Vanilla_Bushes { get; set; }
+
+
+        public ModConfig(ICoreAPI api, ModConfig previousConfig = null)
         {
-            T config;
+            Is_Enabled = previousConfig?.Is_Enabled ?? true;
 
-            try
-            {
-                config = LoadConfig<T>(api, jsonConfig);
-
-                if (config == null)
-                {
-                    GenerateConfig<T>(api, jsonConfig);
-                    config = LoadConfig<T>(api, jsonConfig);
-                }
-                else
-                {
-                    GenerateConfig(api, jsonConfig, config);
-                }
-            }
-            catch
-            {
-                GenerateConfig<T>(api, jsonConfig);
-                config = LoadConfig<T>(api, jsonConfig);
-            }
-
-            return config;
+            Leaf_Model_Type = previousConfig?.Leaf_Model_Type ?? ModelType.Lite;
+            Use_Vanilla_Bushes = previousConfig?.Use_Vanilla_Bushes ?? false;
         }
 
-        private static T LoadConfig<T>(ICoreAPI api, string jsonConfig) where T : IModConfig
+        public enum ModelType
         {
-            return api.LoadModConfig<T>(jsonConfig);
-        }
-
-        private static void GenerateConfig<T>(ICoreAPI api, string jsonConfig, T previousConfig = null) where T : class, IModConfig
-        {
-            api.StoreModConfig(CloneConfig<T>(api, previousConfig), jsonConfig);
-        }
-
-        private static T CloneConfig<T>(ICoreAPI api, T config = null) where T : class, IModConfig
-        {
-            return (T)Activator.CreateInstance(typeof(T), new object[] { api, config });
+            Lite,
+            Full
         }
     }
 }

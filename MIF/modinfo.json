@@ -1,8 +1,8 @@
 {
-    "type": "content",
+    "type": "code",
     "side": "universal",
     "modid": "mif",
-    "name": "MIF",
+    "name": "Misaki's Immersive Foliage",
     "authors": [ "Dov3, Aera" ],
     "description": "Bushy leaves and leafy bushes.",
     "version": "1.0.0",
