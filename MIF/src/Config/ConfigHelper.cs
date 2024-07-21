@@ -6,17 +6,17 @@ using Ele.MIF;
 namespace Ele.Configuration
 {
     //Courtesy of https://github.com/Craluminum-Mods/ && https://github.com/Chronolegionnaire/
-    public static class ConfigManager
+    public static class ConfigHelper
     {
         /// <summary>
-        ///     Returns config file path - ModConfig/ModName.json by default
+        ///     Returns config file path - ModConfig/MOD_NAME.json by default
         ///     Optional configName param for nesting granular config files within a config folder
         /// </summary>
         public static string GetConfigPath(ICoreAPI api, string configName = null)
         {
             return configName == null ? 
-                $"{ModConstants.modName}.json" : 
-                Path.Combine(api.GetOrCreateDataPath(ModConstants.modName), $"{configName}.json");
+                $"{ModConstants.MOD_NAME}.json" : 
+                Path.Combine(api.GetOrCreateDataPath(ModConstants.MOD_NAME), $"{configName}.json");
         }
 
         /// <summary>

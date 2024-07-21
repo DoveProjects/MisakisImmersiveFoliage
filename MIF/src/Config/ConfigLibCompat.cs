@@ -1,4 +1,5 @@
-﻿using System;
+﻿using static Ele.MIF.ModConstants;
+using System;
 using System.Linq;
 using System.Collections.Generic;
 using Vintagestory.API.Config;
@@ -14,26 +15,26 @@ namespace Ele.MIF
     {
         public ConfigLibModSystem ConfigLib { get; set; }
 
-        private const string settingPrefix = $"{ModConstants.modDomain}:Config.Setting.";
+        private const string settingPrefix = $"{MOD_ID}:Config.Setting.";
 
 
         public ConfigLibCompat(ICoreAPI api)
         {
             ConfigLib = api.ModLoader.GetModSystem<ConfigLibModSystem>();
-            ConfigLib.RegisterCustomConfig($"{ModConstants.modDomain}", (id, buttons) => EditConfig(id, buttons, api));
+            ConfigLib.RegisterCustomConfig($"{MOD_ID}", (id, buttons) => EditConfig(id, buttons, api));
         }
 
         private void EditConfig(string id, ControlButtons buttons, ICoreAPI api)
         {
-            if (buttons.Save) ModMain.LoadedConfig = ConfigManager.UpdateConfig(api, ModMain.LoadedConfig);
-            if (buttons.Restore) ModMain.LoadedConfig = ConfigManager.ReadConfig<ModConfig>(api, ConfigManager.GetConfigPath(api));
+            if (buttons.Save) ModMain.LoadedConfig = ConfigHelper.UpdateConfig(api, ModMain.LoadedConfig);
+            if (buttons.Restore) ModMain.LoadedConfig = ConfigHelper.ReadConfig<ModConfig>(api, ConfigHelper.GetConfigPath(api));
             if (buttons.Defaults) ModMain.LoadedConfig = new(api);
             Edit(api, ModMain.LoadedConfig, id);
         }
 
         private void Edit(ICoreAPI api, ModConfig config, string id)
         {
-            ImGui.TextWrapped(Lang.Get(ModConstants.modDomain + ":mod-title"));
+            ImGui.TextWrapped(Lang.Get(MOD_ID + ":mod-title"));
 
             config.Leaf_Model_Type = OnInputEnum(id, config.Leaf_Model_Type, nameof(config.Leaf_Model_Type));
             config.Use_Vanilla_Bushes = OnCheckBox(id, config.Use_Vanilla_Bushes, nameof(config.Use_Vanilla_Bushes));

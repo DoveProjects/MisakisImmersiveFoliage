@@ -1,5 +1,5 @@
 {
 	"mod-title": "Misaki's Immersive Foliage",
-	"Config.Setting.Leaf_Model_Type": "Leaf Model Type",
-	"Config.Setting.Use_Vanilla_Bushes": "Use Vanilla Bushes"
+	"Config.Setting.Leaf_Model_Type": "Leaf Model Type (Requires Reload)",
+	"Config.Setting.Use_Vanilla_Bushes": "Use Vanilla Bushes (Requires Reload)"
 }
