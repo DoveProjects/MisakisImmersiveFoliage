@@ -15,7 +15,8 @@ namespace Ele.MIF
     {
         public ConfigLibModSystem ConfigLib { get; set; }
 
-        private const string settingPrefix = $"{MOD_ID}:Config.Setting.";
+        internal const string titlePrefix = $"{MOD_ID}:Config-Title";
+        internal const string settingPrefix = $"{MOD_ID}:Config-Setting.";
 
 
         public ConfigLibCompat(ICoreAPI api)
@@ -34,10 +35,11 @@ namespace Ele.MIF
 
         private void Edit(ICoreAPI api, ModConfig config, string id)
         {
-            ImGui.TextWrapped(Lang.Get(MOD_ID + ":mod-title"));
+            ImGui.SeparatorText(Lang.Get(titlePrefix));
 
-            config.Leaf_Model_Type = OnInputEnum(id, config.Leaf_Model_Type, nameof(config.Leaf_Model_Type));
+            config.Branchy_Collision = OnCheckBox(id, config.Branchy_Collision, nameof(config.Branchy_Collision));
             config.Use_Vanilla_Bushes = OnCheckBox(id, config.Use_Vanilla_Bushes, nameof(config.Use_Vanilla_Bushes));
+            config.Leaf_Model_Type = OnInputEnum(id, config.Leaf_Model_Type, nameof(config.Leaf_Model_Type));
         }
 
         #region Helpers

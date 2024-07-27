@@ -32,6 +32,7 @@ namespace Ele.MIF
             {
                 api.World.Config.SetString("Leaf_Model_Type", LoadedConfig.Leaf_Model_Type.ToString());
                 api.World.Config.SetBool("Use_Vanilla_Bushes", LoadedConfig.Use_Vanilla_Bushes);
+                api.World.Config.SetBool("Branchy_Collision", LoadedConfig.Branchy_Collision);
             }
         }
         public override void AssetsFinalize(ICoreAPI api)

@@ -5,7 +5,7 @@
     "name": "Misaki's Immersive Foliage",
     "authors": [ "Dov3, Aera" ],
     "description": "Bushy leaves and leafy bushes.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependencies": {
         "game": ""
     }

@@ -5,7 +5,8 @@
         "op": "addmerge",
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "path": "/collisionbox",
-        "value": null
+        "value": null,
+        "condition": { "when": "Branchy_Collision", "isValue": false }
     },
     {
         "side": "server",
